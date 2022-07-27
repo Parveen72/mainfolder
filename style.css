@@ -5,8 +5,9 @@
     height:auto;
     width: 100%;
     border: 1px ;
-    background-color: rgb(239, 199, 247);
-   
+    background-image: url(../School/resources/back3.jpg);
+    background-size: cover;
+    background-position:center;
 
     
     
@@ -19,8 +20,7 @@
     width: 800px;
     border: 1px ;
     background-image: url(../School/resources/back3.jpg);
-    background-size: cover;
-    background-position:center;
+    
 
  }*/
  .vision{
@@ -76,7 +76,7 @@
 
 .nev ul{
     
-    margin-top:2px; 
+    margin-top:3px; 
     float: right;
     text-decoration: none;   
     display: inline-flex;   
@@ -88,8 +88,8 @@
     
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 15px;
-    color:white;
+    font-size: 16px;
+    color:rgb(19, 1, 1);
     padding: 5px 13px ;
     text-transform: uppercase;
 
@@ -97,9 +97,9 @@
 
     transition: 0.6s ease-in-out;
 }
-.nev ul li a:hover{
+.nev ul li:hover{
 
-    background-color:rgb(228, 193, 225);
+    background-color:rgb(219, 167, 216);
      color:rgb(143, 18, 49);
      
 
@@ -132,7 +132,7 @@
 }
 
     
- .footer ul  :hover{
+ .foot ul  :hover{
 
     background-color: blueviolet;
     color: wheat;
@@ -142,33 +142,22 @@
 
 .leftsider
 {
-    height:500px;
-    width: 250px;
-    
-    
-    display: inline;
-    float: left;
-    
-
-}
-.footer{
-    
-    height: 50px;
-    width: 100%;
+    height:700px;
+    width:22%;
     
     text-align: center;
-    margin-top: -80px;
     
+   background-color:rgb(245, 65, 233);
+    display: inline;
     background-color:rgb(245, 65, 233);
 
-    
-    padding-top: 4px;
-    border-radius: 5px;
+    padding-top: 2px;
+    border-radius: 20px;
 
 
     
-}/*
-.footer ul li{
+}
+.foot ul li{
     
     
     list-style: none;
@@ -181,22 +170,22 @@
     
     
 }
-.footer ul{
+.foot ul{
     display:flex;
     justify-content: center;
 
     font-size: 20px;
-}*/
+}
+
+
 
 .rightblk{
 
-    
-    display: inline-block;
-    height: 500px;
-    width: 1000px;
-    
 
-    
+    height: 700px;
+    width:82%;
+    margin-left:10px;
+    display: inline-block;
 
 }
 
@@ -212,23 +201,23 @@
 }*/
 .btn{
     float: left;
-
+width:210px;
 
 }
 .btn ul li{
 
 
     
-    background-color:rgb(245, 198, 242);
+    background-color:rgb(250, 118, 241);
     
     
-
+    height: 30px;
     border-radius: 10px  ;
     margin-top: 3px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: large;
-    width:156px;
-    padding: 6px;
+    font-size:20px;
+    width:250px;
+    padding: 2px;
     border: 1px solid violet;
     display: block;
     text-align: center;
@@ -236,12 +225,12 @@
     
 }
 
-.btn ul li a:hover{
+.btn ul li:hover{
     display:block;
     background-color:rgb(247, 144, 240);
      color:rgb(143, 18, 49);
     border-radius: 10px;
-    padding: 5px;
+
 
 }
 .btn ul{    
@@ -259,9 +248,12 @@ border-radius: 10px;
 }
 .frm{
 
-    height:500px;
-    width: 1000px;
-    border-style: none;
+    height:700px;
+    width:100%;
+    border: none;
+    
+   margin-left:50px;
+    
     
    
 }
@@ -274,6 +266,8 @@ p{
     font-style: bold;
     padding: 3px;
 }
+
+
 
 
 .news tr td{
@@ -292,7 +286,7 @@ table td img{
     border: 1px solid rgb(157, 157, 209);
     box-shadow: 4px 4px 4px 4px gray;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 20%;
 
 }
 h4{
@@ -325,4 +319,41 @@ h4{
     text-shadow: 6px 6px 6px rgb(170, 10, 10);
     color:rgb(52, 4, 97);
 
+}
+.heading h4{
+    text-align: center;
+}
+.general
+{
+
+ height: 450px;
+ width:250px; 
+ border: 1px  black;
+ border-radius: 7px;
+ box-shadow: 3px 3px 3px gray;
+ background-color: rgb(212, 180, 241); 
+ display: inline-block; 
+ margin-left: 50px;
+font-size: 14px;
+font-family: cursive;
+text-align:center;
+ 
+}
+
+.general p{
+    text-align: left;
+}
+ .general img{
+    margin-top: 5px;
+    height: 200px;
+ width: 220px; 
+
+ 
+}
+
+footer{
+    background-color: blueviolet;
+    text-align: center;
+    font-size:large;
+    
 }
