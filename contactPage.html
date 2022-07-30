@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <style>
+        .parent {
+            position: relative;
+            text-align: center;
+            color: white;
+            height: 100%;
+            width: 100%;
+        }
+
+        .s1 {
+            position: absolute;
+            top: 48%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: aliceblue;
+            box-shadow: 15px 11px cadetblue;
+            height: 150px;
+            width: 330px;
+        }
+
+        .s2 {
+            position: absolute;
+            top: 48%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(229, 234, 238);
+
+            height: 300px;
+            width: 320px;
+            text-align: center;
+        }
+
+        .s3 {
+            position: absolute;
+            top: 28%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            font-size: 15px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 6%;
+        }
+
+        .s4 {
+            position: absolute;
+            top: 3%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+
+            margin-left: 6%;
+
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 45px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 4px 5px rgb(19, 8, 185);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="parent">
+
+        <img src="resources/c3.jpg" alt="contact page" width="1550" height="745" >
+        <div class="s4 mt-3">
+            <h2>CONTACT US</h2>
+        </div>
+        <div class="s3">
+            <span class="text-start h3" style="color:#03340b;"><b>GET</b></span>&nbsp;<span class="h5">IN TOUCH</span>
+            <br>
+            <marquee behavior="scroll" direction="right" scrollamount="3">
+                <p>thank you for visiting our website,please feel free to contact us<br> at our email,you may also
+                    submit a contact form.
+                </p>
+            </marquee>
+
+        </div>
+        <br>
+        <div class="s1">
+
+            <marquee behavior="slide" direction="left">&nbsp;<i class="fa fa-phone" style="color: black;"><span
+                        class="text-primary">&nbsp;+91 8600-786-441</span></i></marquee><br>
+            <marquee behavior="slide" direction="left">&nbsp;<i class="fa fa-envelope"
+                    style="color: rgb(232, 15, 15);"><span class="text-primary">&nbsp;schoolm@gmail.com</span></i>
+            </marquee><br>
+            <marquee behavior="slide" direction="left">&nbsp;<i class="fa fa-map-marker"
+                    style="color: rgb(19, 8, 185);"><span class="text-primary">&nbsp;Tilak road,pune
+                        Maharashtra</span></i></marquee>
+        </div>
+        <div class="s2">
+            <form>
+                <br>
+                <input type="text" placeholder="Name*" required style="box-shadow: 2px 2px rgb(221, 30, 30);">
+                <br>
+                <br>
+                <input type="text" placeholder="Email*" required style="box-shadow: 2px 2px red;">
+                <br>
+                <br>
+                <input type="text" placeholder="Phone*" required style="box-shadow: 2px 2px red;">
+                <br>
+                <br>
+                <input type="text" placeholder="Country*" required style="box-shadow: 2px 2px red;">
+                <br>
+                <br>
+                <textarea name="text" id="message" cols="21.2" rows="2" placeholder="message"
+                    style="box-shadow: 2px 2px red;"></textarea>
+                <br>
+                <input type="submit" value="submit"
+                    style="background-color: rgb(5, 92, 116); color: aliceblue; height:38px;width: 200px;">
+            </form>
+        </div>
+</body>
+
+</html>
