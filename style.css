@@ -8,6 +8,7 @@
     background-image:url(../mainfolder/resources/back3.jpg);
     background-size: cover;
     background-position:center;
+    background-color: aquamarine;
 
     
     
@@ -35,13 +36,13 @@
     height: 200px;
     width: 100%;
 
-padding-top: 100px;
-   background-image:url(../mainfolder/resources/back3.jpg);
+    padding-top: 100px;
+   background-image:url(../mainfolder/resources/h.jpg);
    
    
     background-size:100% 280px;
     background-repeat: no-repeat;
-    text-align:left;
+    text-align:center;
 }
 
 
@@ -53,6 +54,7 @@ padding-top: 100px;
     border: 1px solid rgb(199, 164, 199);
     
     background-color:transparent;
+    display: inline;
 }
 .one ul li{
 
@@ -348,13 +350,14 @@ margin-left: -30px;
 }
 .sclname{
 
-    font-size:50px;
+    font-size:25px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-style: italic;
-    text-align: left;
+    text-align: center;
     text-shadow: 6px 6px 6px rgb(238, 11, 227);
-    color:rgb(68, 6, 65)
+    color:rgb(68, 6, 65);
+    
 
 }
 .heading h4{
